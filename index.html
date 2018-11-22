@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Test your knowledge</title>
+
+		<meta charset="UTF-8"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>		
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/mainStyle.css" />
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<header>
+			<nav class="navigation">
+				<div class="logoC"></div>
+			</nav>
+		</header>
+
+		<div class="displayMainContainer">
+
+			<div class="mainHeading"><h3>JavaScript Quiz</h3></div>
+
+			<div class="displayInnerContainer">	
+
+				<div><button id="startBtn">Start Quiz</button></div>
+
+
+				<div class="quizDisplay" id="quizDisplayId">
+
+					<div class="quetion"><h4 id="question"></h4></div>
+					<input type="radio" name="answer" class="radioBtn" value="" id="a1"><label for="a1"> </label><br>
+					<input type="radio" name="answer" class="radioBtn" value="" id="a2"><label for="a2"></label><br>
+					<input type="radio" name="answer" class="radioBtn" value="" id="a3"><label for="a3"></label><br>
+					<input type="radio" name="answer" class="radioBtn" value="" id="a4"><label for="a4"></label>
+					<p id="selectAnswer"></p>
+					<button id="nextBtn">Next</button>
+					<div id="timer">00:00</div>
+
+					<div class="myProgress">
+						<div class="progress-bar progress-bar-info" id="myBar" role="progressbar" aria-valuenow="50"
+							 aria-valuemin="0" aria-valuemax="100" style="width:0%">						
+						</div>
+					</div>
+
+					<!--<div id="myProgress">
+
+<div id="myBar">0%</div>
+
+</div>-->
+
+				</div>			
+
+				<div class="piechartC"><div id="piechart"></div></div>
+
+				<div class="displayResult">					
+
+					<div id="displayGreeting"></div>
+
+					<div id="displayAnswer"></div>	
+
+					<div id="displayTimer"></div>
+
+					<div class="tryAgainBtnC"><button id="tryAgainBtn">Try Again</button></div>
+
+				</div>
+
+			</div>
+
+			<!--<div class="displayResult">
+
+<div id="displayGreeting"></div>
+
+<div id="displayAnswer"></div>					
+
+</div>-->
+
+		</div>
+
+		<script src="scripts/myScript.js"></script>
+
+	</body>
+
+</html>

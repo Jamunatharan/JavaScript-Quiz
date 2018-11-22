@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+
+.question{
+	font-weight: 600;
+}
+
+.answers {
+	margin-bottom: 20px;
+}
+
+#nextBtn{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #4AB2D6;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px 30px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#nextBtn:hover{
+	background-color: #006594;
+}
+
+#tryAgainBtn {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #4AB2D6;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px 30px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: none;
+}
+
+.displayMainContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.radioBtn {
+	margin: 10px;
+}
+
+.displayInnerContainer {
+	position: absolute;
+	top: 30vh;
+	text-align: left;
+	width: 80%;
+	background-color: #ddecf7;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.navigation {
+	height: 50px;
+	background-color: #4AB2D6;
+	padding: 5px;
+}
+
+.mainHeading {
+	margin-top: 10vh;
+}
+
+.quetion {
+	margin-bottom: 20px;
+}
+
+.displayGreeting {
+	font-size: 14px;
+	text-align: center;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+	border-radius: 3px;
+}
+
+#myBar {
+  width: 0%;
+  height: 13px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 12px;
+  color: white;
+  font-size: 11px;
+  border-radius: 3px;
+	
+}
+
+.logoC {
+	height: 40px;
+	width: 40px;
+	background-image: url(../images/quizimg.jpg);
+	background-size: cover;
+	background-position: center;	
+	border-radius: 50%;
+	transform: rotate(-20deg);
+	background-color: #fff;	
+	
+}
+
+#timer {
+	text-align: center;
+	font-size: 30px;
+}
+
+#selectAnswer {
+	color: red;
+}
+
+.quizDisplay {
+	display: none;
+	width: 50%;
+	min-width: 300px;
+	padding: 10px;
+	
+}
+
+#startBtn {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #4AB2D6;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px 30px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+#piechart {
+	/*width: 100%;*/ 
+	height: 100%;
+	width: 100%;	
+	background-color: #ddecf7;	
+	
+}
+
+.piechartC {
+	width: 50%;
+	min-width: 300px;
+	padding: 5px;
+	
+}
+
+#displayAnswer {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	display: none;
+	margin-top: 30px;
+}
+
+#displayTimer {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;	
+	
+}
+
+#displayGreeting {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	display: none;
+	
+}
+
+.displayResult {
+	width: 50%;	
+	height: 100%;
+	
+}
+
+.tryAgainBtnC {
+	display: flex;
+	justify-content: center;
+}
